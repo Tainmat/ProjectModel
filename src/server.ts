@@ -1,10 +1,9 @@
 import express from 'express';
 import { createCourse } from './routes';
 
-const port = 3000
+const port = 3000;
 const app = express();
 
-app.get('/', createCourse)
+app.get('/', createCourse);
 
 app.listen(port);
-
